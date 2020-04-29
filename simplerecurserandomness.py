@@ -9,7 +9,6 @@
 
 import random
 
-count = 0
 numOfRandoms = input("Number of random tests: ")
 numOfRandoms = int(numOfRandoms)
 limUpper = int(input("Upper limit for random numbers: "))
@@ -17,6 +16,7 @@ limLower = int(input("Lower limit for random numbers: "))
 
 
 for i in range(0, numOfRandoms):
+	count = 0
 	n = random.randrange(limLower, limUpper)
 	while n > 1:
 		print("Number: " + str(n))
