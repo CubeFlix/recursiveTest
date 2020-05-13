@@ -31,10 +31,10 @@ for testingNumber in range(limLow, limHi):
 			allNumbers.append(n)
 		else:
 			looping = True
-		if count > highestCount:
-			#higher count yay
-			highestCount = count
-			bestN = testingNumber
+	if count > highestCount:
+		#higher count yay
+		highestCount = count
+		bestN = testingNumber
 	print("Count: " + str(count))
 	
 		
